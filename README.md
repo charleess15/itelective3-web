@@ -17,7 +17,6 @@
 ### Express
 ---
 
-
 <img width="70" height="70" alt="Express" src="https://brandslogos.com/wp-content/uploads/images/large/angular-icon-logo.png">
 
 ### Angular
@@ -27,4 +26,15 @@
 
 ### Node JS
 ---
+# Equipment Monitoring System
+#### Equipment Monitoring System is a system that tracks the status and performance of an equipment to assess and diagnose faults and take preventive action. This system will also track equipment-related orders and its availability in order to avoid excess payments. This system will be created to reduce human error and lessen the workload. This monitoring system will be utilized mainly for its sole purpose in avoiding financial conflict and hazards from the use of the equipments. 
 
+---
+# Possible Subsystems
+#### • Accounting system - to streamline equipment-related accounting and payments
+<br>
+
+#### • Asset management system – to streamline equipment planning and scheduling equipment modernization or disposal
+<br>
+
+#### • Inventory management system – to facilitate ordering of required spare parts for equipment modernization.

@@ -7,23 +7,24 @@
 ---
 # Framework and Stacks Used
 
-<div class="flex-container">
-  <div><img width="70" height="70" alt="Firestone" src="https://seeklogo.com/images/F/firestore-logo-3828671CC5-seeklogo.com.png"></div>
-  <div><img width="100" height="70" alt="Express" src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_21a537a2f60ea582bd213cab0722cb1a/express-js.png"></div>
-  <div><img width="70" height="70" alt="Express" src="https://brandslogos.com/wp-content/uploads/images/large/angular-icon-logo.png"></div>
-  <div><img width="" height="70" alt="Express" src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png"></div>
-</div>
+<img style="display: flex;" width="70" height="70" alt="Firestone" src="https://seeklogo.com/images/F/firestore-logo-3828671CC5-seeklogo.com.png">
 
-###### FEAN Firestore
+### FEAN Firestore
 
-<style>
-    .flex-container {
-        display: flex;
-    }
+---
+<img width="100" height="70" alt="Express" src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_21a537a2f60ea582bd213cab0722cb1a/express-js.png">
 
-    .flex-container > div {
-        margin: 0px;
-        padding: 5px;
-        font-size: 30px;
-    }
-</style>
+### Express
+---
+
+
+<img width="70" height="70" alt="Express" src="https://brandslogos.com/wp-content/uploads/images/large/angular-icon-logo.png">
+
+### Angular
+---
+
+<img width="" height="70" alt="Express" src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png">
+
+### Node JS
+---
+

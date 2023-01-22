@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#15 Tailwind Custom Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- Background -->
+<body class = "bg-[#e4e4ee]">
+
+    
+    <div class="grid h-screen place-items-center">
+        
+        <div class="flex flex-col gap-3 items-center bg-white rounded-md shadow-2xl relative" style = "width: 450px; height: 690px">
+            <div class = "mt-8 mb-5"></div>
+
+            <button class="opacity-30 absolute top-5 right-3" onclick="window.alert('No current use')">
+                <img class = "w-7 h-10" src="https://cdn3.iconfinder.com/data/icons/2px-stroke-simple-line/24/misc-kabob-512.png">
+            </button>
+            
+            <div class ="relative">
+                <img class = "rounded-full w-28 h-28 mx-auto " src="profilecard.jpg">
+                <img class = "rounded-full opacity-40 w-10 h-10 absolute -right-1 -bottom-1" src="https://img.icons8.com/emoji/512/green-circle-emoji.png">
+                <img class = "rounded-full w-6 h-6 absolute right-1 bottom-1" src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/help/sync-icons/sync-icon.png">
+            </div>
+
+            <div class = "mt-1"></div>
+            
+            <div class="flex flex-col gap-1 items-center ">
+                <h1 class="text-2xl">Charles Anthony Trazo</h1>
+                <h2 class="text-gray-500 font-">UI/UX Designer</h2>
+            </div>
+
+            <div class = "mt-3"></div>
+            
+            <div class="flex items-center gap-14">
+                <div class="flex flex-col items-center">
+                    <p class="text-gray-500" style="margin-left:11px;">Projects</p>
+                    <p class="font-semibold text-lg" style="margin-left:11px;">11</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <p class="text-gray-500" style="margin-left:10px; margin-right:5px;">Following</p>
+                    <p class="font-semibold text-lg" style="margin-left:8px; margin-right:5px;">250</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <p class="text-gray-500">Followers</p>
+                    <p class="font-semibold text-lg">185</p>
+                </div>
+            </div>
+
+
+            <div class="mx-10 mt-8 text-center text-sm">
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adip </p>
+                <p class="text-gray-600">iscing elit. Sed et est et velit ornare ultrices. Ut vitae</p>
+                <p class="text-gray-600">diam volutpatrisus eget.</p>
+            </div>
+
+            <div class = "mt-1"></div>
+
+            <div class="flex flex-row gap-1">
+                <a href="https://www.twitter.com/" class="rounded-full hover:bg-[#03a9f4] px-1.5 py-1.5">
+                    <img class = "rounded-full w-8 h-8 mx-auto" src="https://img.icons8.com/color/512/twitter-circled.png">
+                </a>
+                <a href="https://www.facebook.com/" class="rounded-full hover:bg-[#3f51b5] px-1.5 py-1.5">
+                    <img class = "rounded-full w-8 h-8 mx-auto" src="https://img.icons8.com/color/512/facebook-circled.png">
+                </a>
+                <a href="https://www.google.com" class="rounded-full hover:bg-[#f4511e] px-1.5 py-1.5">
+                    <img class = "rounded-full w-8 h-8 mx-auto" src="https://img.icons8.com/color/512/google-plus.png">
+                </a>
+                <a href="https://www.behance.com/" class="rounded-full hover:bg-[#1769ff] px-1.5 py-1.5">
+                    <img class = "rounded-full w-8 h-8 mx-auto" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/behance-512.png">
+                </a>
+            </div>
+
+            <div class = "mt-4"></div>
+
+            <div class="">
+                <button class="bg-[#31b6bf] hover:bg-cyan-600 text-white hover:text-white py-3 px-20 rounded-full shadow-lg text-xl" onclick="window.alert('No current use')">
+                    View Profile
+                </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
